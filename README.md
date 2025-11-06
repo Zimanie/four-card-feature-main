@@ -40,7 +40,7 @@ Desktop view:
 ### Links
 
 - Solution URL: (https://github.com/Zimanie/four-card-feature-main)
-- Live Site URL: (add your deployed site URL, e.g. GitHub Pages or Live Server link)
+- Live Site URL: (https://zimanie.github.io/four-card-feature-main/)
 
 ## My process
 
@@ -68,5 +68,6 @@ Desktop view:
 
 - Frontend Mentor - [@Zimanie](https://www.frontendmentor.io/profile/Zimanie)
 - Twitter - [@Zimanie5](https://www.twitter.com/Zimanie5)
+
 
 
