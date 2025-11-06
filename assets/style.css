@@ -38,7 +38,7 @@ body {
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background-color: var(--primary-orange);
+    background-color: #fff;
     color: var(--neutral-grey500);
     margin: 0 auto;
 }
@@ -168,4 +168,5 @@ body {
     .card-details  p{
        text-align: start;
     }
+
 }
