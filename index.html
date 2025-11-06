@@ -4,31 +4,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Frontend mentor | Product Preview Page</title>
-    <link rel="stylesheet" href="assets/style.css">
-    <link rel="icon" sizes="32x32" href="/assets/images/favicon-32x32.png">
+    <title>Frontend mentor | Four Card Feature Sections</title>
+    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="icon" href="./assets/images/favicon-32x32.png">
 </head>
 
 <body>
-    <main class="product-preview">
-        <img class="product-image" src="/assets/images/image-product-mobile.jpg" alt="chanel">
-        <div class="product-details">
-            <span class="product">PERFUME</span>
-            <h1 class="title">Gabrielle Essence Eau De Parfum</h1>
-            <p class="description">A floral, solar and voluptuous interpretation composed by Olivier Polge,
-                Perfumer-Creator for the House of CHANEL.</p>
-            <div class="price-section">
-                <span class="price">$149.99</span>
-                <span class="original-price">$169.99</span>
-            </div>
-            <button class="add-to-cart" type="button">
-                <img class="cart-icon" src="assets/images/icon-cart.svg" alt="cart-icon">
-                Add to cart
-            </button>
+    <main class="feature-page">
+        <div class="feature">
+            <h1 class="feature-title">Reliable, efficient delivery <span class="feature-title-strong">Powered by
+                    Technology</span></h1>
         </div>
+        <p>Our Artificial Intelligence powered tools use millions of project data points to ensure that your project is
+            successful</p>
+        <div class="feature-container">
+            <div class="card supervisor-card">
+                <div class="card-details">
+                    <h2>Supervisor</h2>
+                    <p>Monitors activity to identify project roadblocks</p>
+                </div>
+               <div class="feature-image">
+                 <img class="card-image" src="./assets/images/icon-supervisor.svg" alt="Supervisor">
+               </div>
+            </div>
+            <div class="card-stack">
+                <div class="card team-builder-card">
+                    <div class="card-details">
+                        <h2>Team Builder</h2>
+                        <p>Scans our talent network to create the optimal team for your project</p>
+                    </div>
+                   <div class="feature-image">
+                     <img class="card-image" src="./assets/images/icon-team-builder.svg" alt="Team Builder">
+                   </div>
+                </div>
 
+                <div class="card karma-card">
+                    <div class="card-details">
+                        <h2>Karma</h2>
+                        <p>Regularly evaluates our talent to ensure quality</p>
+                    </div>
+                    <div class="feature-image">
+                        <img class="card-image" src="./assets/images/icon-karma.svg" alt="Karma">
+                    </div>
+                </div>
+            </div>
 
+            <div class="card calculator-card">
+                <div class="card-details">
+                    <h2>Calculator</h2>
+                    <p>Uses data from past projects to provide better delivery estimates</p>
+                </div>
+               <div class="feature-image">
+                 <img class="card-image" src="./assets/images/icon-calculator.svg" alt="calculator">
+               </div>
+            </div>
+        </div>
     </main>
+
 </body>
 
 </html>
